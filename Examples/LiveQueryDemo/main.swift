@@ -22,6 +22,7 @@ Parse.initialize(with: ParseClientConfiguration {
 let liveQueryClient = ParseLiveQuery.Client()
 
 class ChatRoomManager {
+    
     fileprivate var currentChatRoom: Room?
     fileprivate var subscription: Subscription<Message>?
 
